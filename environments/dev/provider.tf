@@ -7,8 +7,8 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "rg-todostatefile"
-    storage_account_name = "todostatestg2025"
-    container_name       = "goodcontainers"
+    storage_account_name = "rknewbabastg"
+    container_name       = "badcontainers"
     key                  = "dev.tfstate"
   }
 }
