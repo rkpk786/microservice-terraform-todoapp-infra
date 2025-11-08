@@ -6,9 +6,9 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "rg-todostatefile"
-    storage_account_name = "rknewbabastg"
-    container_name       = "badcontainers"
+    resource_group_name  = "rahulaction"
+    storage_account_name = "rahulactionstg12"
+    container_name       = "actioncont"
     key                  = "dev.tfstate"
   }
 }
